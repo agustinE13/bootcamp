@@ -1,0 +1,45 @@
+@mixin btn-base {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+}
+
+@mixin btn-sm-modify {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+$color-main: #0075ff;
+$color-footer: #f4f8fe;
+
+.btn-main {
+
+}
+
+.btn-sec {
+
+}
+
+.main-menu {
+ 
+}
+
+.icon-sm {
+  
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  i {
+    color: $color-main;
+    font-size: 10rem;
+    padding: 0;
+  }
+  .title {
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
